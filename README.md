@@ -1,7 +1,6 @@
 ## Switch to vue3 and use vuetify and vuex
-```
+
 vue3 + vuetify + vuex
-```
 
 ## Project setup
 ```
