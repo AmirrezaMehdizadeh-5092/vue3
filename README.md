@@ -1,4 +1,6 @@
-# test1
+## Switch to vue3 and use vuetify and vuex
+
+vue3 + vuetify + vuex
 
 ## Project setup
 ```
@@ -14,12 +16,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-"# vue3" 
