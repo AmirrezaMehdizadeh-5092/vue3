@@ -103,6 +103,9 @@ export default {
       window: 0,
     };
   },
+  mounted() {
+    console.log(this.$store.state.count);
+  },
 };
 </script>
 

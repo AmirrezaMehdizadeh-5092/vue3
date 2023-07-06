@@ -1,6 +1,20 @@
 import { createApp } from 'vue'
 import App from './App.vue';
 import router from './router.js';
+import { createStore } from 'vuex'
+
+const store = createStore({
+  state () {
+    return {
+      count: 1
+    }
+  },
+  mutations: {
+    increment (state) {
+      state.count++
+    }
+  }
+})
 
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
@@ -13,6 +27,7 @@ const vuetify = createVuetify({
 })
 
 const app = createApp(App);
-app.use(router)
+app.use(router);
+app.use(store);
 app.use(vuetify);
 app.mount('#app')
